@@ -1,0 +1,383 @@
+.nav-logo {
+    margin-top: -750px;
+
+
+}
+
+.nav2 {
+    margin-top: -900px;
+    margin-right: 200px;
+    font-size: 20px;
+
+}
+
+.main {
+
+    background-image: url('https://aboutdci.com/wp-content/uploads/2023/09/pexels-alexandr-podvalny-3278215-scaled-1.jpg');
+    height: 1000px;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.texts {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.text1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.text2{
+    font-family: "Playwrite US Trad", cursive;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00ba88;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.card1 {
+    margin-left: 100px;
+}
+
+.card2 {
+    margin-left: 100px;
+}
+
+.card3 {
+    margin-left: 100px;
+}
+
+.card4 {
+    margin-left: 100px;
+}
+
+.textcard {
+    border-radius: 30px;
+}
+
+.dreams {
+    color: red;
+    text-align: center;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+.learn {
+    color: rgb(90, 0, 128);
+}
+
+.pcard {
+    background-color: rgba(246, 241, 241, 0.984);
+    border-color: rgb(208, 201, 201);
+    border-radius: 50px;
+}
+
+.pcard1 {
+    margin-left: 100px;
+}
+
+.pcard2 {
+    margin-left: 100px;
+}
+
+.pcard3 {
+    margin-left: 100px;
+}
+
+.pcard4 {
+    margin-right: 200px;
+}
+
+.customer {
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Playwrite US Trad", cursive;
+}
+
+.heart {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: rgb(3, 3, 44);
+    color: gainsboro;
+}
+
+.last {
+    background-color: rgb(3, 3, 44);
+
+}
+
+.fhead {
+    color: orangered;
+}
+
+.kerala {
+    font-size: 90px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    color: blue;
+
+}
+
+.package {
+    border-radius: 50px;
+    background-color: rgb(105, 9, 195);
+    color: white;
+    border: 0px;
+    padding: 10px;
+}
+
+.premium {
+    margin: 90px;
+}
+
+.north {
+    margin: 90px;
+}
+
+.img-collash {}
+
+.collash {
+    text-align: center;
+}
+
+@media (max-width:768px) 
+{
+    
+
+    .navbutton {
+        margin-top: -350px;
+        position: fixed;
+        margin-left: 680px;
+    }
+    .main {
+        background-size: cover;
+        height: 500px;
+    }
+    .enquiry {
+        position: absolute;
+        top: 10%;
+        left: 60%;
+        transform: translate(-60%, -10%);
+        padding: 0px;
+
+    }
+    .nav-logo {
+        margin-top: -300px;
+        width: 300px;
+    }
+
+    .texts {
+        position: absolute;
+        top: 45%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    .text1 {
+        font-weight: 900;
+        font-size: 50px;
+    }
+    .nav2 {
+        margin: -550px;
+    }
+
+}
+
+@media (max-width:992px) {
+   
+    .main {
+        background-size: cover;
+        height: 500px;
+    }
+
+    .nav-logo {
+        margin-top: -300px;
+        width: 400px;
+
+    }
+    .drop {
+        margin-top: 550px;
+        font-size: 10px;
+    }
+    .youtube{
+        width: 100%;
+    }
+    .card1 {
+        margin-left: 200px;
+    }
+
+    .card2 {
+        margin-left: 200px;
+    }
+
+    .card3 {
+        margin-left: 200px;
+    }
+
+    .card4 {
+        margin-left: 200px;
+    }
+
+    .pcard1 {
+        margin-left: 200px;
+    }
+
+    .pcard2 {
+        margin-left: 200px;
+    }
+
+    .pcard3 {
+        margin-left: 200px;
+    }
+
+    .pcard4 {
+        margin-left: 200px;
+    }
+
+
+}
+
+
+@media (max-width:480px) {
+    .drop {
+        margin-top: 750px;
+        font-size: 10px;
+    }
+
+    .navbutton {
+        margin-top: -200px;
+        position: fixed;
+        margin-left: 400px;
+
+    }
+
+    .main {
+        background-size: cover;
+        height: 300px;
+    }
+
+    .nav-logo {
+        margin-top: -150px;
+        width: 300px;
+
+    }
+
+    .nav2 {
+        font-size: 15px;
+    }
+
+    .texts {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    .text1 {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+    .enquiry {
+        position: absolute;
+        top: 650%;
+        left: 60%;
+        transform: translate(-60%, -650%);
+        padding: 0px;
+
+    }
+
+    .honeymoon {
+        margin-left: 80px;
+    }
+
+    .kerala {
+        font-size: 40px;
+    }
+
+    .card1 {
+        margin-left: -30px;
+    }
+
+    .card2 {
+        margin-left: -30px;
+    }
+
+    .card3 {
+        margin-left: -30px;
+    }
+
+    .card4 {
+        margin-left: -30px;
+    }
+
+    .pcard1 {
+        margin-left: -30px;
+    }
+
+    .pcard2 {
+        margin-left: -30px;
+    }
+
+    .pcard3 {
+        margin-left: -30px;
+    }
+
+    .pcard4 {
+        margin-left: -30px;
+    }
+}
